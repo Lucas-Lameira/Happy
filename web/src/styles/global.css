@@ -1,0 +1,21 @@
+/*
+google fonts css rules  
+font-family: 'Nunito', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #FFF;
+    background-color: #ebf2f5;
+}
+
+/* utilizam font diferente do body */
+body, input, button, textarea {
+    /* Caso o navegador nao carregue a Nunito, carrega qualquer font sans-serif */
+    font: 600 18px Nunito, sans-serif; 
+}
