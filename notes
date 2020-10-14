@@ -1,3 +1,10 @@
+1 dia{
+
+FERRAMENTAS
+- vscode 
+- Node js
+
+CONCEITOS
 - API RESTful
 - JSON
 - Front-end
@@ -16,3 +23,60 @@ yarn add react-router-dom
 yarn add @types/react-router-dom -D
 yarn add leaflet react-leaflet
 yarn add @types/react-leaflet -D
+
+}
+
+2 dia {
+
+FERRAMENTAS
+- insomnia
+- Beekeeper studio
+
+
+CONCEITOS
+- request & response
+- Rota
+- Recurso
+- Métodos HTTP
+    - get
+    - post
+    - put 
+    - delete
+- Parâmetros
+    - query
+    - route
+    - body
+- Banco de dados
+    - sqlite3
+    - ORM - Object Relational Mapping
+
+    comandos{
+        yarn typeorm migration:create -n nome_da_tabela
+        yarn typeorm migration:run
+        yarn typeorm migration:revert
+
+    }
+- MVC
+    - Model
+    - view
+    - controller
+        - index, show, create, update, delete
+
+COMANDOS
+yarn init -y
+yarn add express
+yarn add @types/express -D
+yarn add typescript -D
+yarn tsc --init
+yarn add ts-node-dev -D
+yarn add typeorm sqlite3
+yarn add multer
+yarn add @types/multer -D
+yarn add express-async-errors
+yarn add yup
+yarn add @types/yup -D
+yarn add cors
+yarn add @types/cors -D
+
+
+}
