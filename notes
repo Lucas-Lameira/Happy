@@ -63,20 +63,23 @@ CONCEITOS
         - index, show, create, update, delete
 
 COMANDOS
-yarn init -y
-yarn add express
-yarn add @types/express -D
-yarn add typescript -D
-yarn tsc --init
-yarn add ts-node-dev -D
-yarn add typeorm sqlite3
-yarn add multer
-yarn add @types/multer -D
-yarn add express-async-errors
-yarn add yup
-yarn add @types/yup -D
-yarn add cors
-yarn add @types/cors -D
+    yarn init -y
+    yarn add express
+    yarn add @types/express -D
+    yarn add typescript -D
+    yarn tsc --init
+    yarn add ts-node-dev -D
+    yarn add typeorm sqlite3
+    yarn add multer
+    yarn add @types/multer -D
+    yarn add express-async-errors
+    yarn add yup
+    yarn add @types/yup -D
+    yarn add cors
+    yarn add @types/cors -D
+}
+
+3 dia {
 
 
 }
