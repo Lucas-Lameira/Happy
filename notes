@@ -1,4 +1,4 @@
-1 dia{
+﻿1 dia{
 
 FERRAMENTAS
 - vscode 
@@ -81,5 +81,22 @@ COMANDOS
 
 3 dia {
 
+CONCEITOS
+react hooks
+react state
+
+yarn add axios
+}
+
+4 dia {
+
+    - React-native
+    - expo
+    yarn global add expo-cli
+    expo install react-native-maps
+    expo install @expo-google-fonts/nunito expo-font
+    yarn add @react-navigation/native
+    expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+    yarn add @react-navigation/stack
 
 }
