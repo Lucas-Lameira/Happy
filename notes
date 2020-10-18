@@ -100,3 +100,10 @@ yarn add axios
     yarn add @react-navigation/stack
 
 }
+
+5 dia {
+    yarn add axios
+    expo install expo-image-picker
+
+    deep linking
+}
