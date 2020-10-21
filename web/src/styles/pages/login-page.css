@@ -1,0 +1,123 @@
+#login-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+
+#login-container section {
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-container section .location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 24px;
+    line-height: 34px;
+    
+}
+
+#login-container main{    
+    position: relative;
+    background: #FFF;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-container main h1{
+    color: #5C8599;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;    
+    margin-bottom: 50px;
+}
+
+#login-container main form label {
+    font-size: 16px;
+    line-height:21,82px;
+    font-weight: 600;
+    color: #8FA7B3;    
+}
+
+#login-container main form input{
+    width: 340px;
+    height: 64px;
+    border-radius: 20px;
+    border: none;
+    background: #F5F8FA;
+    margin: 5px 0 18px;
+    padding: 20px;
+}
+
+#login-container main form .utilities-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8FA7B3;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#login-container main form .utilities-group #password-remember{
+    text-decoration: none;
+    color: #8FA7B3; 
+}
+
+#login-container main form .utilities-group #remember-me{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#login-container main #main-container form .utilities-group #remember{
+    width: 24px;
+    height: 24px;
+   /*  border-radius: 50px;
+    border: none; */
+    margin: 0 10px 0 0;
+   /*  border-radius: 50%;
+    border: 1px solid #D3E2E5;
+    background: #F5F8FA; */
+    
+}
+
+#login-container main form button{    
+    width: 340px;
+    height: 64px;   
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #37C77F80;
+    color: #FFF;
+    margin-top: 30px;
+    transition: background 0.2s;
+}
+
+#login-container main form button:hover{
+    background: #37C77F;
+}
+
+#login-container main .goback{     
+    position: absolute;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #EBF2F5;
+    border-radius: 16px;
+    top: 32px;
+    right: 72px;
+}
