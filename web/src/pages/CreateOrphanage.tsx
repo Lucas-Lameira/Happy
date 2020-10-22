@@ -89,11 +89,10 @@ export default function CreateOrphanage() {
             >
               <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
 
-              {position.latitude!=0 ?
+              {position.latitude!==0 ?
                 <Marker interactive={false} icon={MapIcon} position={[position.latitude,position.longitude]} /> 
                 : null
               }
-
               
             </Map>
 

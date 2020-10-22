@@ -6,7 +6,7 @@ import Landing from './pages/Landing';
 import OrphanagesMap from './pages/OrphanagesMap';
 import Orphanage from './pages/Orphanage';
 import CreateOrphanage from './pages/CreateOrphanage';
-
+import Dashboard from './pages/Dashboard';
 import LoginPage from './pages/Login';
 
 function Routes () {
@@ -18,6 +18,7 @@ function Routes () {
 				<Route path="/orphanages/create" exact component={CreateOrphanage}/>
 				<Route path="/orphanages/:id" exact component={Orphanage}/>
 				<Route path="/Login" component={LoginPage}/>
+				<Route path="/dashboard" component={Dashboard}/>
 			</Switch>
 		</BrowserRouter>
 	);

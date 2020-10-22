@@ -31,7 +31,7 @@ function LoginPage () {
 						<div className="utilities-group">
 							<div id="remember-me">
 								<input type="checkbox" name="remember" id="remember"/>
-								<label htmlFor="remember">lembrar-me</label>
+								<label htmlFor="remember">Lembrar-me</label>
 							</div>
 							<a id="password-remember" href="">Esqueci minha senha</a>
 						</div>

@@ -75,15 +75,15 @@
     color: #8FA7B3; 
 }
 
-#login-container main form .utilities-group #remember-me{
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
+ #login-container main form .utilities-group #remember-me{
+    display: flex;    
+}    
 
 #login-container main #main-container form .utilities-group #remember{
     width: 24px;
     height: 24px;
+    /* opacity: 0;
+    position: absolute; */
    /*  border-radius: 50px;
     border: none; */
     margin: 0 10px 0 0;
@@ -92,6 +92,7 @@
     background: #F5F8FA; */
     
 }
+
 
 #login-container main form button{    
     width: 340px;
